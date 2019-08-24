@@ -2,7 +2,7 @@
 
 ## Server
 
-https://get-hercules.herokuapp.com/
+https://weight-lift-be.herokuapp.com/
 
 ## Dependencies
 
