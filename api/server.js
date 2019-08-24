@@ -16,9 +16,9 @@ server.use(express.json());
 server.use(helmet());
 server.use(cors());
 
-server.use('/api/restricted/exercises', restricted, exercisesRouter);
-server.use('/api/restricted/journals', restricted, journalRouter);
-server.use('/api/restricted/users', restricted, usersRouter);
+server.use('/api/restricted/exercises', exercisesRouter);
+server.use('/api/restricted/journals', journalRouter);
+server.use('/api/restricted/users', usersRouter);
 server.use('/api/auth', authRouter);
 
 server.get('/', (req, res) => {
